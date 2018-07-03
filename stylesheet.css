@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    perspective: 1px;
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -22,20 +23,18 @@ header {
     transform-style: inherit;
     width: 100vw;
 }
-header h1
-{
 
+header h1 {
     margin-top: -100px;
+}
+
+header,
+header::before {
+    background: 50% 50% / cover;
 
 }
 
-header, header::before
-{
-    background: 50% 50%;
-}
-
-header::before
-{
+header::before {
     bottom: 0;
     content: "";
     left: 0;
@@ -43,5 +42,20 @@ header::before
     right: 0;
     top: 0;
     display: block;
-    background-image: 
+    background-image: url(Images/pic2.jpeg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
 }
+
+header * 
+{
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
