@@ -10,8 +10,6 @@ $(".hamburgerBtn").click(function(){
     $(".sideMenuWrapper").toggle(200);
 });
 
-
-
 $(".sideMenuWrapper").click(function(e){
     if(e.pageX > $( window ).width() * 0.75){
         $('.nav-icon1').removeClass('open');

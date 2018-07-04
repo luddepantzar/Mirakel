@@ -120,7 +120,7 @@ header *
   
   .nav-icon1.open span:nth-child(1) {
     top: 18px;
-    left: -15px;
+    left: 15px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
     -o-transform: rotate(135deg);
@@ -130,7 +130,7 @@ header *
   .nav-icon1.open span:nth-child(2) {
       opacity: 100%;
       top: 22px;
-    left: 0px;
+    left: 30px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -139,7 +139,7 @@ header *
   
   .nav-icon1.open span:nth-child(3) {
     top: 18px;
-    left: -40px;
+    left: -10px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
@@ -148,7 +148,7 @@ header *
 
   .nav-icon1.open span:nth-child(4) {
       top: 22px;
-      left: -55px;
+      left: -25px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -158,65 +158,14 @@ header *
   /*hide side menu*/
   .sideMenuWrapper{
       display: none;
-      width: 100%;
+      width: 300px;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.3);
       position: fixed;
       top: 0;
       left: 0;
   }
-  
-  /*side menu*/
-  .sideMenu{
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: #333;
-      opacity: 0.97;
-      height: 100vh;
-      width: 75%;
-      margin: 0;
-      z-index: 999;
-  }
-  .sideMenu ul{
-      list-style-type: none;
-      margin: 0;
-      margin-top: 30px;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-      font-size: 1.1em;
-  }
-  .sideMenu ul li {
-      display: inline;
-      width: 100%;
-  }
-  .sideMenu ul li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      border-bottom: 1px solid #000;
-  }
-  .sideMenu ul li a:hover {
-      background-color: #111;
-  }
-  /*sub menus*/
-  .sub-menu{
-      margin: 0 !important;
-      background-color: #141414 !important;
-      font-size: 0.9em !important;
-  }
-  .sub-menu a{
-      border-color: #fff !important;
-      padding: 10px 16px !important;
-      background-color: #555 !important;
-  }
-  .sub-menu a:hover{
-      background-color: #444 !important;
-  }
-  
+
   .down-arrow{
       position: relative !important;
       right: 15px !important;
@@ -230,7 +179,7 @@ header *
       z-index: 1000;
       position: fixed;
       top: 60px;
-      right: 20px;
+      left: 20px;
   }
   
   .hamburgerBtn span{
