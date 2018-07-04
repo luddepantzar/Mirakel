@@ -5,6 +5,7 @@ html {
 
 body {
     color: #fff;
+    background-color: #333;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -64,6 +65,19 @@ header *
     margin: 0;
     padding: 0;
   }
+
+  a.menu-item {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+  }
+
+  a.menu-item:hover {
+    padding-left: 25px;
+    transition: all .4s ease-in-out;
+  }
   
   /* Icon 1 */
   
@@ -82,10 +96,18 @@ header *
     transition: .5s ease-in-out;
     cursor: pointer;
   }
+
+  .nav-icon1.open {
+      left: 8.5%;
+  }
+
+  .nav-icon1:hover span:nth-child(1) {
+
+  }
   
   .nav-icon1 span {
     display: block;
-    position: absolute;
+    position: fixed;
     height: 6px;
     width: 100%;
     /*background: #d3531a;*/
@@ -99,7 +121,7 @@ header *
     -webkit-transition: .25s ease-in-out;
     -moz-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+    transition: .5s cubic-bezier(.77,.06,.28,.85);
   }
   
   .nav-icon1 span:nth-child(1) {
@@ -121,6 +143,7 @@ header *
   .nav-icon1.open span:nth-child(1) {
     top: 18px;
     left: 15px;
+    background-color: #fff;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
     -o-transform: rotate(135deg);
@@ -131,6 +154,7 @@ header *
       opacity: 100%;
       top: 22px;
     left: 30px;
+    background-color: #fff;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -140,6 +164,7 @@ header *
   .nav-icon1.open span:nth-child(3) {
     top: 18px;
     left: -10px;
+    background-color: #fff;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
@@ -149,6 +174,7 @@ header *
   .nav-icon1.open span:nth-child(4) {
       top: 22px;
       left: -25px;
+      background-color: #fff;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -156,40 +182,52 @@ header *
   }
   
   /*hide side menu*/
-  .sideMenuWrapper{
-      display: none;
-      width: 300px;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.3);
-      position: fixed;
-      top: 0;
-      left: 0;
+  .container2{
+      margin-left: 0;
+      transition: all .75s cubic-bezier(.77,.06,.28,.85);
   }
 
-  .down-arrow{
-      position: relative !important;
-      right: 15px !important;
-      top: 17px !important;
-      float: right;
-      color: #fff;
+  .container2.push {
+    margin-left: 30%;
+    transition: all .75s cubic-bezier(.77, .06, .28, .85);
   }
   
   .hamburgerBtn{
-      display: none;
+      display: block;
       z-index: 1000;
       position: fixed;
-      top: 60px;
+      top: 20px;
       left: 20px;
   }
   
   .hamburgerBtn span{
       background-color: #343434;
   }
-  /*mobile view css*/
-  @media screen and (max-width: 760px) {
-      /*hamburgerBtn*/
-      .hamburgerBtn{
-          display: block;
-      }
+
+  .table {
+    display: table;
+    height: 50%;
+    width: 100%;
   }
 
+  .cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0px;
+    left: -50%;
+    width: 20%;
+    height: 100vh;
+    z-index: 98;
+    background: rgb(51, 51, 51);
+    transition: all 0.75s cubic-bezier(.77,.06,.28,.85);
+  }
+
+  .menu.open {
+    left: 0;
+    box-shadow: 1px 0px 5px #222;
+  }
