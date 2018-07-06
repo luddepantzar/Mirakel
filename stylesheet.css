@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    perspective: 1px;
+    
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -23,6 +23,7 @@ body {
 }
 
 header {
+    perspective: 1px;
     box-sizing: border-box;
     min-height: 100vh;
     padding: 30vw 0 5vw;
@@ -215,10 +216,11 @@ header button:nth-child(2) {
   .container2{
       margin-left: 0;
       transition: all .75s cubic-bezier(.77,.06,.28,.85);
+      
   }
 
   .container2.push {
-    margin-left: 30%;
+    margin-left: 20%;
     transition: all .75s cubic-bezier(.77, .06, .28, .85);
   }
   
@@ -261,3 +263,16 @@ header button:nth-child(2) {
     left: 0;
     box-shadow: 1px 0px 5px #222;
   }
+
+
+
+
+  /*
+  SAker att kolla på på månd
+
+  1. Göra om parralx
+
+  2. Menyn åker in / ut olika snabbt
+
+  3. lägga till footer, kontakt o insta
+  */
