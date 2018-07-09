@@ -22,9 +22,22 @@ body {
     color: #000;
 }
 
-#plx2 {
+header {
+    perspective: 1px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+
+#plx2
+{
     background: url(Images/pic2.jpeg);
-    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,11 +46,30 @@ body {
 }
 
 header h1 {
-    margin-top: 100px;
+    margin-top: -100px;
 }
 
+/* header,
+header::before {
+    background: 50% 50% / cover;
+}
+
+header::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(Images/pic2.jpeg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+} */
+
 header * {
-    vertical-align: middle;
     font-weight: bold;
     letter-spacing: 0.2em;
     text-align: center;
@@ -352,21 +384,22 @@ a.menu-item:hover {
 {
     background: url(Images/pic1.jpeg);
     background-attachment: fixed;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.mid {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+#IconCollection {
+    text-align: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-#IconCollection {
-    align-content: center;
-
+.CollectionImg {
+    height: 80px;
 }
 
 @media screen and (max-width: 980px) {

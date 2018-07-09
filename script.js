@@ -9,7 +9,6 @@ $(".hamburgerBtn").click(function () {
     $(".sideMenuWrapper").toggle(200);
     $('.container2').toggleClass('push');
     $('.menu-type').toggleClass('open');
-    $('.columns').toggleClass('push');
 });
 
 $(".sideMenuWrapper").click(function (e) {
