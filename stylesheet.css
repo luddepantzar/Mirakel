@@ -43,7 +43,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 header h1 {
@@ -380,11 +379,8 @@ a.menu-item:hover {
 {
     background: url(Images/pic1.jpeg);
     background-attachment: fixed;
-    height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 #IconCollection {
@@ -395,7 +391,10 @@ a.menu-item:hover {
 }
 
 .CollectionImg {
-    height: 80px;
+    height: 120px;
+    padding: 30px;
+    background-color: rgba(51, 51, 51, 0.400);
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 980px) {
