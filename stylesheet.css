@@ -14,6 +14,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Lucida Sans';
+    
 }
 
 #test {
@@ -427,7 +428,7 @@ a.menu-item:hover {
 figure.contact {
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     margin: 10px 5px;
     min-width: 220px;
     max-width: 310px;
@@ -499,7 +500,7 @@ figure.contact figcaption:after {
     right: 0;
 }
 
-figure.contact.black {
+figure.contact.overlay {
     background: #000000;
 }
 
@@ -530,6 +531,11 @@ figure.contact.hover figcaption:after {
 }
 
 
+.contactdiv
+{
+    /*GÖR SÅ BILDERNA HAMNAR I SNYGG ALGINMENT*/
+     text-align: center;
+}
 
 
 /*
