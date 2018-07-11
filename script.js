@@ -32,7 +32,7 @@ $(document).ready(function() {
       var topPos = $(this).scrollTop();
   
       // if user scrolls down - show scroll to top button
-      if (topPos > 500) {
+      if (topPos > 50) {
         $(scrollTop).css("opacity", "1");
   
       } else {
@@ -55,6 +55,10 @@ $(document).ready(function() {
      *************************************/
     // declare variable
     var h1 = $("#ContertArea1").position();
+    var h2 = $("#PriceHeading").position();
+    var h3 = $(".contactdiv").position();
+    var h4 = $("").position();
+    var h5 = $("").position();
   
     $('#continueButton').click(function() {
       $('html, body').animate({
@@ -62,7 +66,41 @@ $(document).ready(function() {
       }, 500);
       return false;
   
-    });// left menu link2 click() scroll END
+    });
+
+    $('#PriceIconButton').click(function() {
+        $('html,body').animate({
+            scrollTop: h2.top -20
+        }, 500);
+        return false;
+
+    });
+
+    $('#BarberIconButton').click(function() {
+        $('html,body').animate({
+            scrollTop: h3.top
+        }, 500);
+        return false;
+        
+    });
+
+    $('').click(function() {
+        $('html,body').animate({
+            scrollTop: h4.top -110
+        }, 500);
+        return false;
+        
+    });
+
+    $('').click(function() {
+        $('html,body').animate({
+            scrollTop: h5.top -110
+        }, 500);
+        return false;
+        
+    });
+    
+    // left menu link2 click() scroll END
   
   }); // ready() END
 
