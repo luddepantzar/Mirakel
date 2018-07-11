@@ -16,12 +16,17 @@ body {
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
-=======
-    font-family: 'Lucida Sans';
-    
->>>>>>> 915c264c113d724ab1c8d544309bc9df3e6ab262
+
+}
+
+button.btn:active {
+    outline: none !important;
+    border: none !important;
+}
+
+button:focus {
+    outline: 0;
 }
 
 #test {
@@ -434,14 +439,14 @@ h1{
     background-color: rgba(255,255,255,0.3);
    }
   .tbl-content{
-    height:300px;
+    height:100%;
     overflow-x:auto;
     margin-top: 0px;
     border: 1px solid rgba(255,255,255,0.3);
   }
   th{
     padding: 20px 15px;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
     font-size: 12px;
     color: #fff;
@@ -449,7 +454,7 @@ h1{
   }
   td{
     padding: 15px;
-    text-align: left;
+    text-align: center;
     vertical-align:middle;
     font-weight: 300;
     font-size: 12px;
@@ -461,6 +466,7 @@ h1{
   /* demo styles */
   
   #pricingSection{
+      height: 110%;
     background: -webkit-linear-gradient(left, #333333, #000);
     background: linear-gradient(to right, #333333, #000);
     padding-top: 20px;
@@ -473,10 +479,21 @@ h1{
     width: 6px;
 } 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(161, 161, 161, 0.3); 
 } 
 ::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
+}
+
+#stop {
+    background: transparent;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+
+#stop:hover {
+    transform: rotate(20deg);
+    transition: all .4s ease-in-out;
 }
 
 @media screen and (max-width: 980px) {

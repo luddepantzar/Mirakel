@@ -32,7 +32,7 @@ $(document).ready(function() {
       var topPos = $(this).scrollTop();
   
       // if user scrolls down - show scroll to top button
-      if (topPos > 500) {
+      if (topPos > 50) {
         $(scrollTop).css("opacity", "1");
   
       } else {
@@ -56,7 +56,7 @@ $(document).ready(function() {
     // declare variable
     var h1 = $("#ContertArea1").position();
     var h2 = $("#PriceHeading").position();
-    var h3 = $("").position();
+    var h3 = $(".contactdiv").position();
     var h4 = $("").position();
     var h5 = $("").position();
   
@@ -70,15 +70,15 @@ $(document).ready(function() {
 
     $('#PriceIconButton').click(function() {
         $('html,body').animate({
-            scrollTop: h2.top -100
+            scrollTop: h2.top -20
         }, 500);
         return false;
 
     });
 
-    $('').click(function() {
+    $('#BarberIconButton').click(function() {
         $('html,body').animate({
-            scrollTop: h3.top -110
+            scrollTop: h3.top
         }, 500);
         return false;
         

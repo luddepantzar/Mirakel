@@ -20,10 +20,10 @@
                             <a href="https://boka.itsperfect.se/50601446/Kund/Loggain?ReturnUrl=%2F50601446">Boka Online</a>
                         </button>
                     </div>
-                    <div id="continueButton">
+                    <!-- <div id="continueButton"> -->
                         <div class="arrow arrow-first"></div>
                         <div class="arrow arrow-second"></div>
-                    </div>
+                    <!-- </div> -->
                 </header>
         
             </div>
@@ -66,22 +66,22 @@
 <div id="plx" class="container2">
     <div class="row" id="IconCollection">
         <div class="col-sm mid">
-            <a id="PriceIconButton">
+            <a id="PriceIconButton" style="cursor: pointer;">
                 <img src="Images/test.png" class="CollectionImg"/>
             </a>
             <h3>Priser</h3>
         </div>
         <div class="col-sm mid">
-            <a href="">
+            <a id="FindIconButton" style="cursor: pointer;">
                 <img src="Images/location3.png" class="CollectionImg"/>
             </a>
             <h3>Hitta hit</h3>
         </div>
         <div class="col-sm mid">
-            <a href="">
-                <img src="Images/Telephone.png" class="CollectionImg"/>
+            <a id="BarberIconButton" style="cursor: pointer;">
+                <img src="Images/test.png" class="CollectionImg"/>
             </a>
-            <h3>Kontakta oss</h3>
+            <h3>Frisörer</h3>
         </div>
     </div>
 </div>
@@ -92,15 +92,14 @@
         blanditiis cupiditate ut tempore impedit asperiores nesciunt deleniti quidem, doloremque deserunt molestias ipsum!</p>
 </div>
 
-<<<<<<< HEAD
-<section id="pricingSection">
+<section class="container2" id="pricingSection">
         <!--for demo wrap-->
         <h1 id="PriceHeading">Våra Priser</h1>
         <div class="tbl-header">
           <table cellpadding="0" cellspacing="0" border="0">
             <thead>
               <tr>
-                <th>Vara</th>
+                <th>Prislista</th>
                 <th>Priser</th>
               </tr>
             </thead>
@@ -163,11 +162,10 @@
       </section>
 
     </div>
-=======
-<!--Google map-->
-<div id="map-container-2" class="z-depth-1" style="height: 500px"></div>
 
->>>>>>> 915c264c113d724ab1c8d544309bc9df3e6ab262
+<!--Google map-->
+<div id="map-container-2" class="z-depth-1 container2" style="height: 500px"></div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
@@ -179,7 +177,7 @@
 
 
 <!--KONTAKT-->
-<div class="contactdiv">
+<div class="contactdiv container2">
 <figure class="contact black">
         <img src="images/pic2.jpeg" style="
           height: 310px;">
@@ -231,11 +229,12 @@
         <a href="#"></a>
     </figure>
     </div>
+
+    <div class="fixed-bottom container2">
+        <button id="stop" type="button" class="scrollTop btn"><img src="Images/Arrow up.png" aria-hidden="true"/></button>
+    </div>
+
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-
-
-
     <script type="text/javascript" src="script.js"></script>
 </body>
 
