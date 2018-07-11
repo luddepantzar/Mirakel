@@ -11,6 +11,13 @@ $(".hamburgerBtn").click(function () {
     $('.menu-type').toggleClass('open');
 });
 
+$(".container2").click(function() {
+  $(".menu-type").removeClass("open");
+    $(".nav-icon1").removeClass("open");
+    $('.container2').removeClass('push');
+});
+
+
 $(".sideMenuWrapper").click(function (e) {
     if (e.pageX > $(window).width() * 0.75) {
         $('.nav-icon1').removeClass('open');
