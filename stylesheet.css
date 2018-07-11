@@ -16,9 +16,6 @@ body {
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-<<<<<<< HEAD
-    font-family: 'Lucida Sans';
-=======
     font-family: 'Roboto', sans-serif;
 }
 
@@ -29,7 +26,6 @@ button.btn:active {
 
 button:focus {
     outline: 0;
->>>>>>> 41f824ec47d8b7d577666ef396c736d28b69b1b5
 }
 
 #test {
