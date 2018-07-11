@@ -463,10 +463,10 @@ h1{
   /* demo styles */
   
   #pricingSection{
-      height: 110%;
+      height: 111%;
     background: -webkit-linear-gradient(left, #333333, #000);
     background: linear-gradient(to right, #333333, #000);
-    padding-top: 20px;
+    padding-top: 50px;
     margin-bottom:50px;
   }
 
@@ -482,13 +482,15 @@ h1{
     -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
 }
 
-#stop {
+#stop,
+#stop2 {
     background: transparent;
     color: #fff;
     transition: all .4s ease-in-out;
 }
 
-#stop:hover {
+#stop:hover,
+#stop2:hover {
     transform: rotate(20deg);
     transition: all .4s ease-in-out;
 }
