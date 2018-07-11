@@ -55,8 +55,10 @@ $(document).ready(function() {
      *************************************/
     // declare variable
     var h1 = $("#ContertArea1").position();
-    var h2 = $("").position();
+    var h2 = $("#PriceHeading").position();
     var h3 = $("").position();
+    var h4 = $("").position();
+    var h5 = $("").position();
   
     $('#continueButton').click(function() {
       $('html, body').animate({
@@ -66,7 +68,7 @@ $(document).ready(function() {
   
     });
 
-    $('').click(function() {
+    $('#PriceIconButton').click(function() {
         $('html,body').animate({
             scrollTop: h2.top -100
         }, 500);
@@ -77,6 +79,22 @@ $(document).ready(function() {
     $('').click(function() {
         $('html,body').animate({
             scrollTop: h3.top -110
+        }, 500);
+        return false;
+        
+    });
+
+    $('').click(function() {
+        $('html,body').animate({
+            scrollTop: h4.top -110
+        }, 500);
+        return false;
+        
+    });
+
+    $('').click(function() {
+        $('html,body').animate({
+            scrollTop: h5.top -110
         }, 500);
         return false;
         

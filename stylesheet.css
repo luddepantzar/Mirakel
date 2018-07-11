@@ -1,3 +1,6 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
 html {
     height: 100%;
     overflow: hidden;
@@ -13,7 +16,7 @@ body {
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-    font-family: 'Lucida Sans';
+    font-family: 'Roboto', sans-serif;
 }
 
 #test {
@@ -451,14 +454,11 @@ h1{
   
   /* demo styles */
   
-  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-  body{
+  #pricingSection{
     background: -webkit-linear-gradient(left, #333333, #000);
     background: linear-gradient(to right, #333333, #000);
-    font-family: 'Roboto', sans-serif;
-  }
-  section{
-    margin: 50px;
+    padding-top: 20px;
+    margin-bottom:50px;
   }
 
   /* for custom scrollbar for webkit browser*/
