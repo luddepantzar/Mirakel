@@ -55,6 +55,8 @@ $(document).ready(function() {
      *************************************/
     // declare variable
     var h1 = $("#ContertArea1").position();
+    var h2 = $("").position();
+    var h3 = $("").position();
   
     $('#continueButton').click(function() {
       $('html, body').animate({
@@ -62,7 +64,25 @@ $(document).ready(function() {
       }, 500);
       return false;
   
-    });// left menu link2 click() scroll END
+    });
+
+    $('').click(function() {
+        $('html,body').animate({
+            scrollTop: h2.top -100
+        }, 500);
+        return false;
+
+    });
+
+    $('').click(function() {
+        $('html,body').animate({
+            scrollTop: h3.top -110
+        }, 500);
+        return false;
+        
+    });
+    
+    // left menu link2 click() scroll END
   
   }); // ready() END
 
