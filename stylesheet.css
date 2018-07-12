@@ -58,6 +58,7 @@ header {
 
 header h1 {
     margin-top: -100px;
+    font-size: 60px;
 }
 
 /* header,
@@ -660,6 +661,14 @@ a.qt {
     text-decoration: none;
     float: right;
     font-family: 'Libre Baskerville', serif;
+}
+
+.contactInfo {
+    color: #000;
+}
+
+.contactInfo h2 {
+    text-align: center;
 }
 
 /*
