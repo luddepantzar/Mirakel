@@ -58,6 +58,7 @@ header {
 
 header h1 {
     margin-top: -100px;
+    font-size: 50px;
 }
 
 /* header,
@@ -161,7 +162,7 @@ a.menu-item:hover {
 .nav-icon1 span {
     display: block;
     position: fixed;
-    height: 6px;
+    height: 7px;
     width: 100%;
     /*background: #d3531a;*/
     border-radius: 9px;
