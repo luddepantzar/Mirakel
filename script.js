@@ -39,7 +39,7 @@ $(document).ready(function() {
       var topPos = $(this).scrollTop();
   
       // if user scrolls down - show scroll to top button
-      if (topPos > 50) {
+      if (topPos > 500) {
         $(scrollTop).css("opacity", "1");
   
       } else {
