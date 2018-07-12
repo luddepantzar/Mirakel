@@ -58,32 +58,9 @@ header {
 
 header h1 {
     margin-top: -100px;
-<<<<<<< HEAD
-    font-size: 60px;
-=======
     font-size: 50px;
->>>>>>> e14f2da1413b36a9fcb876c2eb2f38524aab33a8
 }
 
-/* header,
-header::before {
-    background: 50% 50% / cover;
-}
-
-header::before {
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url(Images/pic2.jpeg);
-    background-size: cover;
-    transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
-    min-height: 100vh;
-} */
 
 header * {
     font-weight: bold;
