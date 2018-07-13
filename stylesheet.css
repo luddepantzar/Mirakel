@@ -61,10 +61,6 @@ header h1 {
     font-size: 50px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 93f1b14782787913bf9c648735062e6025531d33
 header * {
     font-weight: bold;
     letter-spacing: 0.2em;
@@ -458,17 +454,6 @@ h1{
     margin-bottom:50px;
   }
 
-  /* for custom scrollbar for webkit browser*/
-
-::-webkit-scrollbar {
-    width: 6px;
-} 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(161, 161, 161, 0.3); 
-} 
-::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
-}
 
 #stop,
 #stop2 {
