@@ -45,7 +45,7 @@ header {
 }
 
 #plx2 {
-    background: url(Images/pic2.jpeg);
+    background: url(Images/blackhite-bun.jpg);
     min-height: 100vh;
     z-index: 100;
     width: 100vw;
@@ -373,7 +373,7 @@ a.menu-item:hover {
 
 #plx {
     z-index: 100;
-    background: url(Images/pic1.jpeg);
+    background: url(Images/flowers.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,6 +461,7 @@ h1{
     margin-bottom:50px;
   }
 
+<<<<<<< HEAD
   /* for custom scrollbar for webkit browser*/
 
 ::-webkit-scrollbar {
@@ -473,6 +474,8 @@ h1{
     -webkit-border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
 }
+=======
+>>>>>>> b56913a1f6fe9cc493dd7aa98246e4c02cfc094a
 
 #stop,
 #stop2 {
