@@ -52,7 +52,7 @@ $(document).ready(function() {
     $(scrollTop).click(function() {
       $('html, body').animate({
         scrollTop: 0
-      }, 800);
+      }, 1500);
       return false;
   
     }); // click() scroll top EMD
@@ -65,7 +65,7 @@ $(document).ready(function() {
     var h2 = $("#PriceHeading").position();
     var h3 = $(".contactdiv").position();
     var h4 = $("").position();
-    var h5 = $("").position();
+    var h6 = $("").position();
   
     $('#continueButton').click(function() {
       $('html, body').animate({
@@ -91,17 +91,33 @@ $(document).ready(function() {
         
     });
 
-    $('').click(function() {
+    $('#HomeButton').click(function() {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 1500);
+        return false;
+    
+      });
+
+    $('#AboutButton').click(function() {
         $('html,body').animate({
-            scrollTop: h4.top -110
+            scrollTop: h4.top
         }, 500);
         return false;
         
     });
 
-    $('').click(function() {
+    $('#TeamButton').click(function() {
         $('html,body').animate({
-            scrollTop: h5.top -110
+            scrollTop: h5.top
+        }, 500);
+        return false;
+        
+    });
+
+    $('#ContactButton').click(function() {
+        $('html,body').animate({
+            scrollTop: h6.top
         }, 500);
         return false;
         
@@ -271,3 +287,25 @@ function custom_map() {
 
 // Initialize maps
 google.maps.event.addDomListener(window, 'load', custom_map);
+
+
+function scrollFooter(scrollY, heightFooter)
+{
+    console.log(scrollY);
+    console.log(heightFooter);
+
+    if(scrollY >= heightFooter)
+    {
+        $('footer').css({
+            'bottom' : '0px'
+        });
+    }
+    else
+    {
+        $('footer').css({
+            'bottom' : '-' + heightFooter + 'px'
+        });
+    }
+}
+
+//--------------------------------------Footer parallax type----------------------------------
