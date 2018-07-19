@@ -1,6 +1,4 @@
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-
 html {
     height: 100%;
     overflow: hidden;
@@ -133,9 +131,7 @@ a.menu-item:hover {
     cursor: pointer;
 }
 
-.nav-icon1.open {
-    
-}
+.nav-icon1.open {}
 
 .nav-icon1:hover span:nth-child(1) {}
 
@@ -411,71 +407,63 @@ a.menu-item:hover {
     overflow: hidden;
 }
 
-h1{
+h1 {
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
     margin-bottom: 15px;
-  }
-  table{
-    width:100%;
+}
+
+table {
+    width: 100%;
     table-layout: fixed;
-  }
-  .tbl-header{
-    background-color: rgba(255,255,255,0.3);
-   }
-  .tbl-content{
-    height:100%;
-    overflow-x:auto;
+}
+
+.tbl-header {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+    height: 100%;
+    overflow-x: auto;
     margin-top: 0px;
-    border: 1px solid rgba(255,255,255,0.3);
-  }
-  th{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
     padding: 20px 15px;
     text-align: center;
     font-weight: 500;
     font-size: 12px;
     color: #fff;
     text-transform: uppercase;
-  }
-  td{
+}
+
+td {
     padding: 15px;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
     font-weight: 300;
     font-size: 14px;
     color: #fff;
-    border-bottom: solid 1px rgba(255,255,255,0.1);
-  }
-  
-  
-  /* demo styles */
-  
-  #pricingSection{
-      height: 111%;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+fb-page {
+    text-align: center;
+}
+
+/* demo styles */
+
+#pricingSection {
+    height: 111%;
     background: -webkit-linear-gradient(to right, #333333, #000);
     background: linear-gradient(to right, #333333, #000);
     padding-top: 50px;
-    margin-bottom:50px;
-  }
-
-<<<<<<< HEAD
-  /* for custom scrollbar for webkit browser*/
-
-::-webkit-scrollbar {
-    width: 15px;
-} 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(161, 161, 161, 0.3); 
-} 
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
+    margin-bottom: 50px;
 }
-=======
->>>>>>> b56913a1f6fe9cc493dd7aa98246e4c02cfc094a
 
 #stop,
 #stop2 {
@@ -695,6 +683,7 @@ a.qt {
     padding-top: 5%;
     padding-bottom: 2%;
 }
+
 /*
   SAker att kolla på på månd
 
