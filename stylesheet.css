@@ -461,7 +461,6 @@ h1{
     margin-bottom:50px;
   }
 
-<<<<<<< HEAD
   /* for custom scrollbar for webkit browser*/
 
 ::-webkit-scrollbar {
@@ -474,8 +473,6 @@ h1{
     -webkit-border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
 }
-=======
->>>>>>> b56913a1f6fe9cc493dd7aa98246e4c02cfc094a
 
 #stop,
 #stop2 {
@@ -665,35 +662,21 @@ a.qt {
     text-align: center;
 }
 
-#mainFooter {
-    background: -webkit-linear-gradient(left, #333, #000);
-    background: linear-gradient(left, #333, #000);
+.footerIcon {
+    transition: all .4s cubic-bezier(.77, .06, .28, .85);
 }
 
-#footerContent-low {
-    text-align: center;
+.footerIcon:hover {
+    transform: rotate(30deg);
+    transition: all .4s cubic-bezier(.77, .06, .28, .85);
 }
 
-.footerMedia {
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 5%;
-    transition: .5s cubic-bezier(.77, .06, .28, .85);
-}
-
-.footerMedia:hover {
-    transform: rotate(360deg);
-    border-radius: 5px;
-    transition: .5s cubic-bezier(.77, .06, .28, .85);
-}
-
-.footerMediaLink {
-    width: 200px;
-}
-
-.footerRow {
-    padding-top: 5%;
-    padding-bottom: 2%;
+#plx3 {
+    z-index: 100;
+    background: url(Images/girlhat-bw.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*
   SAker att kolla på på månd
