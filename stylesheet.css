@@ -455,6 +455,29 @@ fb-page {
     text-align: center;
 }
 
+.snapwidget {
+    margin-top: 10px;
+   
+}
+
+@media screen and (max-width: 720px) {
+    .snapwidget.mobile {
+        display: block;
+    }
+    .snapwidget.desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    .snapwidget.desktop {
+        display: block;
+    }
+    .snapwidget.mobile {
+        display: none;
+    }
+}
+
 /* demo styles */
 
 #pricingSection {
