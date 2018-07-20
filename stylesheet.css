@@ -483,6 +483,10 @@ fb-page {
     }
 }
 
+#PriceHeading {
+    color: #fff;
+}
+
 /* demo styles */
 
 #pricingSection {
