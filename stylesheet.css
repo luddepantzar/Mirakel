@@ -26,6 +26,11 @@ button:focus {
     outline: 0;
 }
 
+.scrollTop
+{
+text-align: left;
+}
+
 #test {
     background-color: #fff;
     font-size: 30px;
