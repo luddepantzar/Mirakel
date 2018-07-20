@@ -396,10 +396,14 @@ a.menu-item:hover {
 .CollectionImg {
     height: 120px;
     padding: 30px;
-    background-color: rgba(51, 51, 51, 0.400);
+    background-color: rgba(51, 51, 51, 0.600);
     border-radius: 50%;
     margin-bottom: 5%;
     transition: all .4s ease-out;
+}
+
+.mid h3 {
+    color: #fff;
 }
 
 .CollectionImg:hover {
@@ -508,6 +512,9 @@ fb-page {
 #stop2:hover {
     transform: rotate(20deg);
     transition: all .4s ease-in-out;
+}
+
+#davinesImgHead {
 }
 
 @media screen and (max-width: 980px) {
