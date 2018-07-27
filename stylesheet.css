@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700);
 html {
     height: 100%;
     overflow: hidden;
@@ -14,7 +15,6 @@ body {
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
 }
 
 button.btn:active {
@@ -26,9 +26,8 @@ button:focus {
     outline: 0;
 }
 
-.scrollTop
-{
-text-align: left;
+.scrollTop {
+    text-align: left;
 }
 
 #test {
@@ -60,8 +59,10 @@ header {
 }
 
 header h1 {
+    font-family: 'Noto Serif', serif;
     margin-top: -30px;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 header * {
@@ -420,7 +421,6 @@ a.menu-item:hover {
 h1 {
     font-size: 30px;
     color: #fff;
-    text-transform: uppercase;
     font-weight: 300;
     text-align: center;
     margin-bottom: 15px;
@@ -467,7 +467,6 @@ fb-page {
 
 .snapwidget {
     margin-top: 10px;
-   
 }
 
 @media screen and (max-width: 720px) {
@@ -515,8 +514,7 @@ fb-page {
     transition: all .4s ease-in-out;
 }
 
-#davinesImgHead {
-}
+#davinesImgHead {}
 
 @media screen and (max-width: 980px) {
     .columns .column {
