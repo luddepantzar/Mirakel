@@ -266,6 +266,7 @@ a.menu-item:hover {
 
 .menu.open {
     background-color: #333;
+    color: white;
     /* background-image: -webkit-linear-gradient(to bottom right, #333333 50%, transparent 50%);
     background-image: linear-gradient(to bottom right, #333333 50%, transparent 50%); */
     left: 0;
