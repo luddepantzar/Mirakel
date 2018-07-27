@@ -6,9 +6,8 @@ html {
 }
 
 body {
-    color: #fff;
     /* Fixa color gradiant */
-    background-color: #fff;
+    background-color: rgb(155, 155, 155);
     margin: 0;
     padding: 0;
     height: 100%;
@@ -28,12 +27,6 @@ button:focus {
 
 .scrollTop {
     text-align: left;
-}
-
-#test {
-    background-color: #fff;
-    font-size: 30px;
-    color: #000;
 }
 
 header {
@@ -137,10 +130,6 @@ a.menu-item:hover {
     cursor: pointer;
 }
 
-.nav-icon1.open {}
-
-.nav-icon1:hover span:nth-child(1) {}
-
 .nav-icon1 span {
     display: block;
     position: fixed;
@@ -217,7 +206,7 @@ a.menu-item:hover {
     transform: rotate(90deg);
 }
 
-/*hide side menu*/
+.fb-page {}
 
 .container2 {
     margin-left: 0;
@@ -260,16 +249,12 @@ a.menu-item:hover {
     width: 20%;
     height: 100vh;
     z-index: 98;
-    /* background-image: -webkit-linear-gradient(to bottom right, #333333 50%, transparent 60%);
-    background-image: linear-gradient(to bottom right, #333333 50%, transparent 50%); */
     transition: all 0.75s cubic-bezier(.77, .06, .28, .85);
 }
 
 .menu.open {
     background-color: #333;
     color: white;
-    /* background-image: -webkit-linear-gradient(to bottom right, #333333 50%, transparent 50%);
-    background-image: linear-gradient(to bottom right, #333333 50%, transparent 50%); */
     left: 0;
 }
 
@@ -487,6 +472,13 @@ fb-page {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .menu {
+        /*HÄR SKA MENYN BLI STÖRRE NÄR SKÄRMEN ÄR MINDRE , DOCK SÅ SYNS TEXTEN AV NÅGN ANLEDNING*/
+        width: 30%;
+    }
+}
+
 #PriceHeading {
     color: #fff;
 }
@@ -513,8 +505,6 @@ fb-page {
     transform: rotate(20deg);
     transition: all .4s ease-in-out;
 }
-
-#davinesImgHead {}
 
 @media screen and (max-width: 980px) {
     .columns .column {
@@ -706,14 +696,3 @@ a.qt {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/*
-  SAker att kolla på på månd
-
-  1. Göra om parralx
-
-  2. Menyn åker in / ut olika snabbt
-
-  3. lägga till footer, kontakt o insta 
-  
-  4. fixa push på contentarea 1  o 2*/

@@ -275,7 +275,7 @@ function custom_map() {
         ]
     };
 
-    var var_map = new google.maps.Map(document.getElementById("map-container-2"),
+    var var_map = new google.maps.Map(document.getElementById("map-container"),
         var_mapoptions);
 
     var var_marker = new google.maps.Marker({
