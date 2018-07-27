@@ -208,6 +208,13 @@ a.menu-item:hover {
 
 .fb-page {}
 
+.headlines {
+    font-family: 'Noto Serif', serif;
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
 .container2 {
     margin-left: 0;
     transition: all .75s cubic-bezier(.77, .06, .28, .85);
@@ -480,6 +487,9 @@ fb-page {
 
 #PriceHeading {
     color: #fff;
+    font-family: 'Noto Serif', serif;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 /* demo styles */
