@@ -245,7 +245,7 @@ a.menu-item:hover {
 .menu {
     position: fixed;
     top: 0px;
-    left: -20%;
+    left: -30%;
     width: 20%;
     height: 100vh;
     z-index: 98;
@@ -474,7 +474,6 @@ fb-page {
 
 @media screen and (max-width: 400px) {
     .menu {
-        /*HÄR SKA MENYN BLI STÖRRE NÄR SKÄRMEN ÄR MINDRE , DOCK SÅ SYNS TEXTEN AV NÅGN ANLEDNING*/
         width: 30%;
     }
 }
