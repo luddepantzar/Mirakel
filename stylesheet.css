@@ -108,7 +108,7 @@ a.menu-item {
 }
 
 a.menu-item:hover {
-    padding-left: 25px;
+    padding-left: 15px;
     transition: all .4s ease-in-out;
 }
 
