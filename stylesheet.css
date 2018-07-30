@@ -206,9 +206,15 @@ a.menu-item:hover {
     transform: rotate(90deg);
 }
 
-.fb-page {}
+.headlinedavi {
+    margin-top: 5%;
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
 
-.headlines {
+.headline {
+    margin-top: -5%;
     font-family: 'Noto Serif', serif;
     font-size: 60px;
     font-weight: bold;
@@ -430,9 +436,11 @@ table {
 
 .tbl-content {
     height: 100%;
-    overflow-x: auto;
-    margin-top: 0px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tbl {
+    table-layout: fixed;
 }
 
 th {
@@ -560,9 +568,7 @@ figure.contact img {
     left: 0;
 }
 
-.seperator
-{
-
+.seperator {
     width: 500px;
     height: 20px;
     background: white;
@@ -646,7 +652,6 @@ figure.contact.hover figcaption:after {
 }
 
 .contactdiv {
-    /*GÖR SÅ BILDERNA HAMNAR I SNYGG ALGINMENT*/
     text-align: center;
 }
 
