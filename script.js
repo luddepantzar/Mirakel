@@ -63,9 +63,9 @@ $(document).ready(function() {
     // declare variable
     var h1 = $("#ContertArea1").position();
     var h2 = $("#PriceHeading").position();
-    var h3 = $(".contactdiv").position();
-    var h4 = $("").position();
-    var h6 = $("").position();
+    var h3 = $("#TeamHeading").position();
+    var h4 = $("#AboutusSection").position();
+    var h5 = $("#FooterofFooter").position();
   
     $('#continueButton').click(function() {
       $('html, body').animate({
@@ -109,15 +109,15 @@ $(document).ready(function() {
 
     $('#TeamButton').click(function() {
         $('html,body').animate({
-            scrollTop: h5.top
-        }, 500);
+            scrollTop: h3.top
+        }, 1500);
         return false;
         
     });
 
     $('#ContactButton').click(function() {
         $('html,body').animate({
-            scrollTop: h6.top
+            scrollTop: h5.top
         }, 500);
         return false;
         
