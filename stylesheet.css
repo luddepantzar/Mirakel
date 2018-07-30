@@ -484,10 +484,6 @@ fb-page {
     }
 }
 
-
-
-
-
 #PriceHeading {
     color: #fff;
     font-family: 'Noto Serif', serif;
@@ -560,6 +556,14 @@ figure.contact img {
     position: relative;
     top: 0;
     left: 0;
+}
+
+.seperator
+{
+
+    width: 500px;
+    height: 20px;
+    background: white;
 }
 
 figure.contact figcaption {
@@ -655,24 +659,20 @@ p.quote {
     font-size: 17px;
     margin-left: 2%;
     float: left;
-     font-family: 'Noto Serif',
-     serif;
+    font-family: 'Noto Serif', serif;
 }
 
 p.punchline {
-    background: #000000;
+
     color: #ffffff;
     font-size: 75px;
     line-height: 74px;
     font-weight: 700;
-    margin: 0 5px 24px;
+    margin-left: 2%;
     float: left;
     padding: 10px;
-    margin: 0 5px 24px;
-     font-family: 'Noto Serif',
-     serif;
+    font-family: 'Noto Serif', serif;
 }
-
 
 .contactInfo {
     color: #000;
