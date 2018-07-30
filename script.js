@@ -80,7 +80,6 @@ $(document).ready(function() {
             scrollTop: h2.top -20
         }, 500);
         return false;
-
     });
 
     $('#BarberIconButton').click(function() {

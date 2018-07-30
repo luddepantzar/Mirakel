@@ -699,3 +699,7 @@ p.punchline {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#TimesOpen {
+    float: right;
+}
