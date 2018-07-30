@@ -1,20 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700);
 html {
     height: 100%;
     overflow: hidden;
 }
 
 body {
-    color: #fff;
     /* Fixa color gradiant */
-    background-color: #fff;
+    background-color: rgb(155, 155, 155);
     margin: 0;
     padding: 0;
     height: 100%;
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
 }
 
 button.btn:active {
@@ -26,15 +25,8 @@ button:focus {
     outline: 0;
 }
 
-.scrollTop
-{
-text-align: left;
-}
-
-#test {
-    background-color: #fff;
-    font-size: 30px;
-    color: #000;
+.scrollTop {
+    text-align: left;
 }
 
 header {
@@ -60,8 +52,10 @@ header {
 }
 
 header h1 {
-    margin-top: -100px;
-    font-size: 50px;
+    font-family: 'Noto Serif', serif;
+    margin-top: -30px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 header * {
@@ -114,7 +108,7 @@ a.menu-item {
 }
 
 a.menu-item:hover {
-    padding-left: 25px;
+    padding-left: 15px;
     transition: all .4s ease-in-out;
 }
 
@@ -135,10 +129,6 @@ a.menu-item:hover {
     transition: .5s ease-in-out;
     cursor: pointer;
 }
-
-.nav-icon1.open {}
-
-.nav-icon1:hover span:nth-child(1) {}
 
 .nav-icon1 span {
     display: block;
@@ -216,7 +206,14 @@ a.menu-item:hover {
     transform: rotate(90deg);
 }
 
-/*hide side menu*/
+.fb-page {}
+
+.headlines {
+    font-family: 'Noto Serif', serif;
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: bold;
+}
 
 .container2 {
     margin-left: 0;
@@ -255,20 +252,22 @@ a.menu-item:hover {
 .menu {
     position: fixed;
     top: 0px;
-    left: -20%;
+    left: -30%;
     width: 20%;
     height: 100vh;
     z-index: 98;
+<<<<<<< HEAD
     background-color: #333;
     /* background-image: -webkit-linear-gradient(to bottom right, #333333 50%, transparent 60%);
     background-image: linear-gradient(to bottom right, #333333 50%, transparent 50%); */
+=======
+>>>>>>> 6713fbfbe2d4e5538f56bbd77b5575d440735160
     transition: all 0.75s cubic-bezier(.77, .06, .28, .85);
 }
 
 .menu.open {
     background-color: #333;
-    /* background-image: -webkit-linear-gradient(to bottom right, #333333 50%, transparent 50%);
-    background-image: linear-gradient(to bottom right, #333333 50%, transparent 50%); */
+    color: white;
     left: 0;
 }
 
@@ -420,7 +419,6 @@ a.menu-item:hover {
 h1 {
     font-size: 30px;
     color: #fff;
-    text-transform: uppercase;
     font-weight: 300;
     text-align: center;
     margin-bottom: 15px;
@@ -467,7 +465,6 @@ fb-page {
 
 .snapwidget {
     margin-top: 10px;
-   
 }
 
 @media screen and (max-width: 720px) {
@@ -488,8 +485,17 @@ fb-page {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .menu {
+        width: 30%;
+    }
+}
+
 #PriceHeading {
     color: #fff;
+    font-family: 'Noto Serif', serif;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 /* demo styles */
@@ -513,9 +519,6 @@ fb-page {
 #stop2:hover {
     transform: rotate(20deg);
     transition: all .4s ease-in-out;
-}
-
-#davinesImgHead {
 }
 
 @media screen and (max-width: 980px) {
@@ -543,7 +546,6 @@ figure.contact {
     min-width: 220px;
     max-width: 310px;
     max-height: 310px;
-    width: 100%;
     overflow: hidden;
     text-align: center;
     background: #000000;
@@ -709,14 +711,3 @@ a.qt {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/*
-  SAker att kolla på på månd
-
-  1. Göra om parralx
-
-  2. Menyn åker in / ut olika snabbt
-
-  3. lägga till footer, kontakt o insta 
-  
-  4. fixa push på contentarea 1  o 2*/
