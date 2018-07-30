@@ -53,7 +53,7 @@ header {
 
 header h1 {
     font-family: 'Noto Serif', serif;
-    margin-top: -30px;
+    margin-top: -17%;
     font-size: 60px;
     font-weight: bold;
 }
@@ -210,7 +210,6 @@ a.menu-item:hover {
 
 .headlines {
     font-family: 'Noto Serif', serif;
-    margin-top: 60px;
     font-size: 60px;
     font-weight: bold;
 }
@@ -485,6 +484,10 @@ fb-page {
     }
 }
 
+
+
+
+
 #PriceHeading {
     color: #fff;
     font-family: 'Noto Serif', serif;
@@ -648,16 +651,12 @@ blockquote {
 }
 
 p.quote {
-    color: #000000;
-    background: #ffffff;
-    font-size: 75px;
-    line-height: 74px;
-    font-weight: 700;
-    margin: 0 5px 24px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 2%;
     float: left;
-    padding: 10px;
-    margin: 0 5px 24px;
-    font-family: 'Libre Baskerville', serif;
+     font-family: 'Noto Serif',
+     serif;
 }
 
 p.punchline {
@@ -670,16 +669,10 @@ p.punchline {
     float: left;
     padding: 10px;
     margin: 0 5px 24px;
-    font-family: 'Libre Baskerville', serif;
+     font-family: 'Noto Serif',
+     serif;
 }
 
-a.qt {
-    color: #adadad;
-    font-size: 25px;
-    text-decoration: none;
-    float: right;
-    font-family: 'Libre Baskerville', serif;
-}
 
 .contactInfo {
     color: #000;
