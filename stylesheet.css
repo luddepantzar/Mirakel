@@ -255,6 +255,12 @@ a.menu-item:hover {
     width: 20%;
     height: 100vh;
     z-index: 98;
+<<<<<<< HEAD
+    background-color: #333;
+    /* background-image: -webkit-linear-gradient(to bottom right, #333333 50%, transparent 60%);
+    background-image: linear-gradient(to bottom right, #333333 50%, transparent 50%); */
+=======
+>>>>>>> 6713fbfbe2d4e5538f56bbd77b5575d440735160
     transition: all 0.75s cubic-bezier(.77, .06, .28, .85);
 }
 
