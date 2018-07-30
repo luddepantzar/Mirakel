@@ -351,6 +351,8 @@ a.menu-item:hover {
 }
 
 .columns {
+    background: -webkit-linear-gradient(to left, #333333, #000);
+    background: linear-gradient(to left, #333333, #000);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -499,8 +501,8 @@ fb-page {
 
 #pricingSection {
     height: 111%;
-    background: -webkit-linear-gradient(to right, #333333, #000);
-    background: linear-gradient(to right, #333333, #000);
+    background: -webkit-linear-gradient(to left, #333333, #000);
+    background: linear-gradient(to left, #333333, #000);
     padding-top: 50px;
     margin-bottom: 50px;
 }
@@ -660,7 +662,6 @@ p.quote {
 }
 
 p.punchline {
-    background: #000000;
     color: #ffffff;
     font-size: 75px;
     line-height: 74px;
