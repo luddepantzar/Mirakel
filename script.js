@@ -11,8 +11,8 @@ $(".hamburgerBtn").click(function () {
     $('.menu-type').toggleClass('open');
 });
 
-$(".container2").click(function() {
-  $(".menu-type").removeClass("open");
+$(".container2").click(function () {
+    $(".menu-type").removeClass("open");
     $(".nav-icon1").removeClass("open");
     $('.container2').removeClass('push');
 });
@@ -26,37 +26,34 @@ $(".sideMenuWrapper").click(function (e) {
     }
 });
 
-$(document).ready(function() {
-    /******************************
-        BOTTOM SCROLL TOP BUTTON
-     ******************************/
-  
+$(document).ready(function () {
+
+
     // declare variable
     var scrollTop = $(".scrollTop");
-  
-    $(window).scroll(function() {
-      // declare variable
-      var topPos = $(this).scrollTop();
-  
-      // if user scrolls down - show scroll to top button
-      if (topPos > 500) {
-        $(scrollTop).css("opacity", "1");
-  
-      } else {
-        $(scrollTop).css("opacity", "0");
-      }
-  
+
+    $(window).scroll(function () {
+        // declare variable
+        var topPos = $(this).scrollTop();
+
+        // if user scrolls down - show scroll to top button
+        if (topPos > 500) {
+            $(scrollTop).css("opacity", "1");
+
+        } else {
+            $(scrollTop).css("opacity", "0");
+        }
     }); // scroll END
-  
+
     //Click event to scroll to top
-    $(scrollTop).click(function() {
-      $('html, body').animate({
-        scrollTop: 0
-      }, 1500);
-      return false;
-  
+    $(scrollTop).click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1500);
+        return false;
+
     }); // click() scroll top EMD
-  
+
     /*************************************
       LEFT MENU SMOOTH SCROLL ANIMATION
      *************************************/
@@ -66,66 +63,66 @@ $(document).ready(function() {
     var h3 = $("#TeamHeading").position();
     var h4 = $("#AboutusSection").position();
     var h5 = $("#FooterofFooter").position();
-  
-    $('#continueButton').click(function() {
-      $('html, body').animate({
-        scrollTop: h1.top - 95
-      }, 500);
-      return false;
-  
-    });
 
-    $('#PriceIconButton').click(function() {
-        $('html,body').animate({
-            scrollTop: h2.top -20
+    $('#continueButton').click(function () {
+        $('html, body').animate({
+            scrollTop: h1.top - 95
         }, 500);
         return false;
 
     });
 
-    $('#BarberIconButton').click(function() {
+    $('#PriceIconButton').click(function () {
+        $('html,body').animate({
+            scrollTop: h2.top - 20
+        }, 500);
+        return false;
+
+    });
+
+    $('#BarberIconButton').click(function () {
         $('html,body').animate({
             scrollTop: h3.top
         }, 500);
         return false;
-        
+
     });
 
-    $('#HomeButton').click(function() {
+    $('#HomeButton').click(function () {
         $('html, body').animate({
-          scrollTop: 0
+            scrollTop: 0
         }, 1500);
         return false;
-    
-      });
 
-    $('#AboutButton').click(function() {
+    });
+
+    $('#AboutButton').click(function () {
         $('html,body').animate({
             scrollTop: h4.top
         }, 500);
         return false;
-        
+
     });
 
-    $('#TeamButton').click(function() {
+    $('#TeamButton').click(function () {
         $('html,body').animate({
             scrollTop: h3.top
         }, 1500);
         return false;
-        
+
     });
 
-    $('#ContactButton').click(function() {
+    $('#ContactButton').click(function () {
         $('html,body').animate({
             scrollTop: h5.top
         }, 500);
         return false;
-        
+
     });
-    
+
     // left menu link2 click() scroll END
-  
-  }); // ready() END
+
+}); // ready() END
 
 
 // Custom map
@@ -136,102 +133,80 @@ function custom_map() {
     var var_mapoptions = {
         center: var_location,
         zoom: 14,
-        styles: [
-            {
+        styles: [{
                 "featureType": "administrative",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "off"
+                }]
             },
             {
                 "featureType": "poi",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "simplified"
+                }]
             },
             {
                 "featureType": "road",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "simplified"
+                }]
             },
             {
                 "featureType": "water",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "simplified"
+                }]
             },
             {
                 "featureType": "transit",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "simplified"
+                }]
             },
             {
                 "featureType": "landscape",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "simplified"
+                }]
             },
             {
                 "featureType": "road.highway",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "off"
+                }]
             },
             {
                 "featureType": "road.local",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "on"
+                }]
             },
             {
                 "featureType": "road.highway",
                 "elementType": "geometry",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "on"
+                }]
             },
             {
                 "featureType": "road.arterial",
                 "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
+                "stylers": [{
+                    "visibility": "off"
+                }]
             },
             {
                 "featureType": "water",
                 "elementType": "all",
-                "stylers": [
-                    {
+                "stylers": [{
                         "color": "#5f94ff"
                     },
                     {
@@ -245,8 +220,7 @@ function custom_map() {
             {
                 "featureType": "road.highway",
                 "elementType": "all",
-                "stylers": [
-                    {
+                "stylers": [{
                         "weight": 0.6
                     },
                     {
@@ -260,8 +234,7 @@ function custom_map() {
             {
                 "featureType": "landscape",
                 "elementType": "all",
-                "stylers": [
-                    {
+                "stylers": [{
                         "hue": "#0066ff"
                     },
                     {
@@ -289,23 +262,17 @@ function custom_map() {
 google.maps.event.addDomListener(window, 'load', custom_map);
 
 
-function scrollFooter(scrollY, heightFooter)
-{
+function scrollFooter(scrollY, heightFooter) {
     console.log(scrollY);
     console.log(heightFooter);
 
-    if(scrollY >= heightFooter)
-    {
+    if (scrollY >= heightFooter) {
         $('footer').css({
-            'bottom' : '0px'
+            'bottom': '0px'
         });
-    }
-    else
-    {
+    } else {
         $('footer').css({
-            'bottom' : '-' + heightFooter + 'px'
+            'bottom': '-' + heightFooter + 'px'
         });
     }
 }
-
-//--------------------------------------Footer parallax type----------------------------------
