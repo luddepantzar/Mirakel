@@ -100,6 +100,7 @@ header button:nth-child(2) {
 }
 
 a.menu-item {
+    color: inherit;
     text-transform: uppercase;
     margin-bottom: 10px;
     display: block;
@@ -207,7 +208,7 @@ a.menu-item:hover {
 }
 
 .headlinedavi {
-    margin-top: 5%;
+    margin-top: 10%;
     font-family: 'Noto Serif', serif;
     font-size: 60px;
     font-weight: bold;
@@ -362,7 +363,7 @@ a.menu-item:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 5px 0;
+
 }
 
 .column {
@@ -440,6 +441,7 @@ table {
 }
 
 .tbl {
+    margin-bottom: 10%;
     table-layout: fixed;
 }
 
@@ -488,7 +490,7 @@ fb-page {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .menu {
         width: 30%;
     }
