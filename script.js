@@ -67,7 +67,7 @@ $(document).ready(function () {
     $('#continueButton').click(function () {
         $('html, body').animate({
             scrollTop: h1.top - 95
-        }, 500);
+        }, 1500);
         return false;
 
     });
@@ -75,14 +75,22 @@ $(document).ready(function () {
     $('#PriceIconButton').click(function () {
         $('html,body').animate({
             scrollTop: h2.top - 20
-        }, 500);
+        }, 1500);
         return false;
     });
 
     $('#BarberIconButton').click(function () {
         $('html,body').animate({
             scrollTop: h3.top
-        }, 500);
+        }, 1500);
+        return false;
+
+    });
+
+    $('#FindIconButton').click(function () {
+        $('html,body').animate({
+            scrollTop: h5.top
+        }, 1500);
         return false;
 
     });
@@ -98,7 +106,7 @@ $(document).ready(function () {
     $('#AboutButton').click(function () {
         $('html,body').animate({
             scrollTop: h4.top
-        }, 500);
+        }, 1500);
         return false;
 
     });
@@ -114,7 +122,7 @@ $(document).ready(function () {
     $('#ContactButton').click(function () {
         $('html,body').animate({
             scrollTop: h5.top
-        }, 500);
+        }, 1500);
         return false;
 
     });

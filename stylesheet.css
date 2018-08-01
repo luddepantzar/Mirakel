@@ -404,6 +404,7 @@ a.menu-item:hover {
 }
 
 .mid h3 {
+    font-family: 'Noto Serif', serif;
     color: #fff;
 }
 
@@ -705,6 +706,19 @@ p.punchline {
     background-size: cover;
 }
 
-#TimesOpen {
-    float: right;
+.Time {
+    text-align: center;
+}
+
+.footerIconLink1 {
+    width: 20px;
+}
+
+.footerIconLink2 {
+    width: 20px;
+    margin: 20px;
+}
+
+#FooterLinks a:hover {
+    color: rgb(51, 51, 51);
 }
