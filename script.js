@@ -283,3 +283,12 @@ function scrollFooter(scrollY, heightFooter) {
         });
     }
 }
+
+
+function hover(element) {
+    element.setAttribute('src', 'Images/Arrow\ up.png');
+}
+
+function unhover(element) {
+    element.setAttribute('src', 'Images/Arrow\ up2.png');
+}
