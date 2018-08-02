@@ -60,7 +60,7 @@ $(document).ready(function () {
     // declare variable
     var h1 = $("#ContertArea1").position();
     var h2 = $("#PriceHeading").position();
-    var h3 = $("#TeamHeading").position();
+    var h3 = $(".headline").position();
     var h4 = $("#AboutusSection").position();
     var h5 = $("#FooterofFooter").position();
 
