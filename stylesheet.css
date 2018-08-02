@@ -705,3 +705,18 @@ p.punchline {
     width: 20px;
     margin: 20px;
 }
+<<<<<<< HEAD
+=======
+
+a.watermark {
+    transition: all .4s ease-in-out;
+    color: rgb(199, 199, 199);
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+a.watermark:hover {
+    color: rgb(31, 31, 31);
+    transition: all .4s ease-in-out;
+}
+>>>>>>> 84b1fb571da356eddb183982ce83a9a034cf94a5
