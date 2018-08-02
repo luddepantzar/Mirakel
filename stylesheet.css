@@ -53,7 +53,7 @@ header {
 
 header h1 {
     font-family: 'Noto Serif', serif;
-    margin-top: -17%;
+    margin-top: -10%;
     font-size: 60px;
     font-weight: bold;
 }
@@ -218,6 +218,12 @@ a.menu-item:hover {
     margin-top: -5%;
     font-family: 'Noto Serif', serif;
     font-size: 60px;
+    font-weight: bold;
+}
+
+.mapheadline {
+    margin-top: 5%;
+    font-family: 'Noto Serif', serif;
     font-weight: bold;
 }
 
