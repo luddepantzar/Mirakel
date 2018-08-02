@@ -32,12 +32,12 @@ button:focus {
     text-align: left;
 }
 
-img {
+img.my-img {
     
     background: url(Images/Arrow\ up.png);
 }
 
-img:hover {
+img:hover.my-img {
     background: url(Images/Arrow\ up2.png);
 }
 
