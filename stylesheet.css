@@ -109,6 +109,7 @@ a.menu-item {
 }
 
 a.menu-item:hover {
+    color: inherit;
     padding-left: 15px;
     transition: all .4s ease-in-out;
 }
@@ -724,6 +725,4 @@ a.watermark:hover {
     transition: all .4s ease-in-out;
 }
 
-.watermarkLink {
-    
-}
+.watermarkLink {}
