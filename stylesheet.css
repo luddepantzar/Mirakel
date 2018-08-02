@@ -26,7 +26,19 @@ button:focus {
 }
 
 .scrollTop {
+    margin-left: 25px;
+    border: 0;
+    margin-bottom: 25px;
     text-align: left;
+}
+
+img {
+    
+    background: url(Images/Arrow\ up.png);
+}
+
+img:hover {
+    background: url(Images/Arrow\ up2.png);
 }
 
 header {
@@ -110,7 +122,7 @@ a.menu-item {
 
 a.menu-item:hover {
     color: inherit;
-    padding-left: 15px;
+    padding-left: 10px;
     transition: all .4s ease-in-out;
 }
 
