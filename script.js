@@ -135,7 +135,7 @@ $(document).ready(function () {
 // Custom map
 function custom_map() {
 
-    var var_location = new google.maps.LatLng(40.725118, -73.997699);
+    var var_location = new google.maps.LatLng(58.536851, 15.034569);
 
     var var_mapoptions = {
         center: var_location,
@@ -261,7 +261,7 @@ function custom_map() {
     var var_marker = new google.maps.Marker({
         position: var_location,
         map: var_map,
-        title: "New York"
+        title: "Urban Hjärnes väg 9"
     });
 }
 
