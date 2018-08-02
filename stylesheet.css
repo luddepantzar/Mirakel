@@ -519,15 +519,17 @@ fb-page {
     margin-bottom: 50px;
 }
 
-#stop,
-#stop2 {
+#stop {
     background: transparent;
     color: #fff;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border: 0;
+    border-radius: 50%;
     transition: all .4s ease-in-out;
 }
 
-#stop:hover,
-#stop2:hover {
+#stop:hover{
     transform: rotate(20deg);
     transition: all .4s ease-in-out;
 }
