@@ -7,21 +7,21 @@ $(document).ready(function () {
 
 $(".hamburgerBtn").click(function () {
     $(".sideMenuWrapper").toggle(200);
-    $('.container2').toggleClass('push');
+    $('.wrapper').toggleClass('push');
     $('.menu-type').toggleClass('open');
 });
 
-$(".container2").click(function () {
+$(".wrapper").click(function () {
     $(".menu-type").removeClass("open");
     $(".nav-icon1").removeClass("open");
-    $('.container2').removeClass('push');
+    $('.wrapper').removeClass('push');
 });
 
 
 $(".sideMenuWrapper").click(function (e) {
     if (e.pageX > $(window).width() * 0.75) {
         $('.nav-icon1').removeClass('open');
-        $('.container2').toggleClass('remove');
+        $('.wrapper').toggleClass('remove');
         $(".sideMenuWrapper").toggle(200);
     }
 });
