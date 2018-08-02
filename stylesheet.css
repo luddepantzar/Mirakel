@@ -714,7 +714,7 @@ p.punchline {
 
 a.watermark {
     transition: all .4s ease-in-out;
-    color: rgb(199, 199, 199);
+    color: rgb(70, 70, 70);
     cursor: pointer;
     vertical-align: bottom;
 }
@@ -722,4 +722,8 @@ a.watermark {
 a.watermark:hover {
     color: rgb(31, 31, 31);
     transition: all .4s ease-in-out;
+}
+
+.watermarkLink {
+    
 }
