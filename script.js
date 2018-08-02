@@ -286,9 +286,9 @@ function scrollFooter(scrollY, heightFooter) {
 
 
 function hover(element) {
-    element.setAttribute('src', 'Images/Arrow\ up.png');
+    element.setAttribute('src', 'Images/Arrow\ up2.png');
 }
 
 function unhover(element) {
-    element.setAttribute('src', 'Images/Arrow\ up2.png');
+    element.setAttribute('src', 'Images/Arrow\ up.png');
 }
